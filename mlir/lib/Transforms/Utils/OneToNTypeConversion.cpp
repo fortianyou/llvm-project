@@ -8,6 +8,7 @@
 
 #include "mlir/Transforms/OneToNTypeConversion.h"
 
+#include <unordered_map>
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 #include "llvm/ADT/SmallSet.h"
 
